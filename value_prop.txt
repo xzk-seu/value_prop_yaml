@@ -1,0 +1,193 @@
+#Person
+UUID	UUID	string
+姓名 	NAME	string
+曾用名	OLD_NAME	string
+别名	ALIAS	string
+英文名	EN_GIV_NAME	string
+生日	BIRTHDAY	string
+性别	SEX	string
+籍贯	ORG_PLACE	string
+出生地	BIRTH_PLACE	string
+户籍地	HJD_ADDR	string
+民族	NATION	string
+国籍	NATIONNALITY	string
+证件头像	CERT_PHOTO	string
+文化程度	EDUCATION	string
+婚姻状况	MARR	string
+政治面貌	POL_AFF	string
+宗教状况	RELIGION	string
+职业	PROF	string
+服役状况	MILIT_COND	string
+标签	PER_TAG	string
+#QQ
+QQ号码	QQ_NUM	string
+备注名	USER_MARK	string
+QQ昵称	NICKNAME	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#MobileNumber
+手机号	MOB_NUM	int
+备注名	MOB_REM_NAME	string
+运营商	MOB_OPT	string
+归属地	MOB_ATTR	string
+卡类型	MOB_CARD_TYPE	string
+开户时间	MOB_REG_DATE_FS	string
+装机地址	INSTALL_ADDR	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#WeChat
+微信账号	WECHAT_VALUE	string
+微信内部ID	WECHAT_UIN	string
+备注名	USER_MARK	string
+微信昵称	NICKNAME	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#Email
+邮箱账号	EMAIL_VALUE	string
+域名	DOMAIN	string
+备注名	USER_MARK	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#MicroBlog
+微博内部ID	UID	string
+新浪微博账号	MICROBLOG_VALUE	string
+备注名	USER_MARK	string
+昵称	NICKNAME	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#DouYin
+抖音账号	DOUYIN_Value	string
+备注名	USER_MARK	string
+昵称	NICKNAME	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#JD
+京东账号	JD_VALUE	string
+备注名	USER_MARK	string
+昵称	NICKNAME	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#Alipay
+支付宝账号	ALIPAY_VALUE	string
+备注名	USER_MARK	string
+昵称	NICKNAME	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#TaoBao
+淘宝账号	TAOBAO_VALUE	string
+备注名	USER_MARK	string
+昵称	NICKNAME	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#Addr
+地址id	ADDR_ID	string
+地址类型	ADDR_TYPE	string
+原始地址名称	ADDR_VALUE	string
+省	PROVINCE
+市	CITY
+区	AREA
+经度	LON	float
+纬度	LAT	float
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#Vehicle
+车架号	VEH_FRAM_NO	string
+车辆类型	VEH_TYPE	string
+车身颜色	VEH_COL	string
+车辆品牌	VEH_CH_BR	string
+车辆发动机号码	VEH_ENG_NO	string
+车辆发动机型号	VEH_ENG_MOD	string
+车辆型号	VEH_MOD	string
+车辆登记日期	VEH_REG_DATE	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#VehicleCard
+车牌号	VEHCARD_VALUE	string
+车牌颜色	VEH_COL	string
+发牌单位	DEAL_UNIT	string
+发牌地区	DEAL_AREA	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#MAC
+MAC	MAC_VALUE	string
+MAC所属设备类型	DEV_TYPE	string
+厂商	DEV_MANUFA	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#IMEI
+IMEI	IMEI_VALUE	string
+厂商	DEV_MANUFA	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#IMSI
+IMSI	IMSI_VALUE	string
+运营商	MOB_OPT	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#Card
+唯一标识	CARD_VALUE	string
+卡类型	CARD_TYPE	string
+卡号码	CARD_NO	string
+办理时间	CAR_OPEN_DATE_FS	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#FixedPhoneNumber
+固话号码	PHONE_NUM	int
+备注名	PHONE_REMARK	string
+运营商	PHONE_OPERAT	string
+装机时间	INSTALL_DATE_FS	string
+装机地址	PHONE_ADDR	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#Idcard
+身份证件号码	IDCARD_VALUE	string
+类型	TYPE	string
+省	PROVINCE
+市	CITY
+区	AREA
+姓名	NAME	string
+性别	SEX	string
+籍贯	ORG_PLACE	string
+证件头像	CERT_PHOTO	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#QQGroup
+QQ群号	GROUP_NUM	string
+QQ群名称	GROUP_NAME	string
+QQ群公告	GROUP_NOT	string
+QQ群标签	GROUP_TAG	string
+创建时间	GROUP_CREATE_DATE_FS	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#WeChatGroup
+微信群号	GROUP_NUM	string
+微信群名称	GROUP_NAME	string
+创建时间	GROUP_CREATE_DATE_FS	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
+#Company
+唯一标识	COID	string
+工商注册号	BUSINESSREGNo	string
+公司地址	CPNY_ADDR	string
+公司名称	CPNY_NAME	string
+其他名称	CPNY_OTHER_NAME	string
+经营范围	BUSS_RGE	string
+行业	INDUSTRY	string
+企业状态	COMPSTATUS	string
+注册时间	REG_DATE_FS	string
+电话	TEL	string
+邮箱	EMAIL	string
+网站	URL	string
+法人	lEGALPERSON	string
+统一信用代码	UNIFIEDCREDITCode	string
+注册地址	REGADDR	string
+纳税人识别号	TAXPAYERID	string
+组织机构代码	ORGCODE	string
+企业类型	COMPTYPE	string
+注册资本金	REG_CAP	string
+营业期限起始	OPERATINGPERIODSTART	string
+营业期限终止	OPERATINGPERIODSTOP	string
+登记机关	REGAUTHORITY	string
+核准日期	APPROVALDATE	string
+首次发现时间	FST_DATE_FS	string
+最后发现时间	LST_DATE_FS	string
